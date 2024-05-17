@@ -29,7 +29,7 @@ Este projeto visa automatizar a verificação dos animais disponíveis para ado�
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/cardosogabriela/cy-e2e-tests.git
 2.Instale as dependências:
   npm install
 
@@ -51,4 +51,5 @@ Contribuições são bem-vindas! Abra uma issue para discutir qualquer alteraç�
 ## Acessando o Site AdoPet
 
 Para acessar o site AdoPet e verificar os animais disponíveis para adoção abaixo:
-`"https://adopet-frontend-cypress.vercel.app/"`
+
+Site: `"https://adopet-frontend-cypress.vercel.app/"`
