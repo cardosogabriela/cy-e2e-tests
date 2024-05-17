@@ -33,11 +33,22 @@ Este projeto visa automatizar a verificação dos animais disponíveis para ado�
 2.Instale as dependências:
   npm install
 
+## Executando Testes
+
+Para executar os testes, você pode usar um dos seguintes comandos:
+
+npx cypress open: Abre a interface gráfica do Cypress.
+npm run cy:run: Executa os testes em modo headless.
+
+## Documentação dos Testes
+
+Após a execução dos testes, a documentação estará disponível em formato HTML no diretório mochawesome-report.
+
 ## Contribuições
 
 Contribuições são bem-vindas! Abra uma issue para discutir qualquer alteração significativa que você gostaria de fazer.
 
 ## Acessando o Site AdoPet
 
-Para acessar o site AdoPet e verificar os animais disponíveis para adoção, clique aqui.
+Para acessar o site AdoPet e verificar os animais disponíveis para adoção abaixo:
 `"https://adopet-frontend-cypress.vercel.app/"`
