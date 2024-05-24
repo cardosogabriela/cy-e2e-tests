@@ -12,6 +12,7 @@ describe('Visite a página do AdoPet', () => {
 
     // Definindo um teste especifico: O bloco 'it' define um teste individual
     it ('Verificar se o texto', () => {
+        // Verificar se o texto está presente no HTML
         cy.contains ('p', 'Adotar pode mudar uma vida. Que tal buscar seu novo melhor amigo hoje? Vem com a gente!').should('be.visible')
     })
 })

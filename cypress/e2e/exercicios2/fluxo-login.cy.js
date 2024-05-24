@@ -5,7 +5,7 @@ clique no botão de ícone de mensagem no header e escreva nome e senha válidos
 describe('', () => {
     // Este bloco é executado antes de cada teste
     beforeEach(() => {
-    // Visitar URL do site AdoPet
+    // Acessa a URL inicial da aplicação
     cy.visit('https://adopet-frontend-cypress.vercel.app/')
 })
     // Definindo um teste especifico: O bloco 'it' define um teste individual
