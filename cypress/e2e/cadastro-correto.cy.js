@@ -1,4 +1,7 @@
+// Descreve um conjunto de testes relacionados à aplicação
 describe('Página de Cadastro', () => {
+
+  // Definindo um teste especifico: O bloco 'it' define um teste individual
   it('Deve preencher os campos do formulário corretamente para cadastrar um novo usuário', () => {
     cy.visit('https://adopet-frontend-cypress.vercel.app/');
     cy.get('[data-test="register-button"]').click();
