@@ -38,7 +38,7 @@ Este projeto automatiza a seleção dos animais disponíveis para adoção no si
 Para executar os testes, você pode usar um dos seguintes comandos:
 
 npx cypress open: Abre a interface gráfica do Cypress.
-npm run cy:run: Executa os testes em modo headless.
+npx cypress run: Executa os testes em modo headless.
 
 ## Documentação dos Testes
 
