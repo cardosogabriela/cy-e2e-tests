@@ -1,8 +1,19 @@
-# Teste Automatizado com Cypress para o Site AdoPet
+# Teste Automatizado com Cypress para o site AdoPet
+<p align="center">
+<img src="https://img.shields.io/static/v1?label=cypress&message=framework&color=green&style=for-the-badge&logo=CYPRESS"/>
+<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
+</p>
+> Status do Projeto: :warning: (em desenvolvimento)
 
-Este repositório contém um projeto de automação de testes E2E utilizando Cypress para verificar os animais disponíveis para adoção no site AdoPet.
+### Tópicos
+* [Título](#Teste-Automatizado-com-Cypress-para-o-site-AdoPet)
+* [Descrição do Projeto](#Descrição-do-projeto)
+* [Status do Projeto](#Status-do-Projeto)
+* [Funcionalidades](#funcionalidades)
+* [Tecnologias utilizadas](#tecnologias-utilizadas)
 
-## Descrição
+
+## Descrição do projeto
 
 Este projeto automatiza a seleção dos animais disponíveis para adoção no site AdoPet utilizando testes automatizados E2E com Cypress. O objetivo é garantir a funcionalidade e integridade das operações de listagem e detalhamento dos animais, proporcionando uma experiência confiável para os usuários que desejam adotar um animal de estimação.
 
@@ -26,7 +37,7 @@ Este projeto automatiza a seleção dos animais disponíveis para adoção no si
 - Node.js (v12 ou superior)
 - Cypress (instalado globalmente ou localmente)
 
-### Instalação
+### Como rodar a aplicação
 
 1. Clone o repositório:
 
@@ -39,12 +50,17 @@ Este projeto automatiza a seleção dos animais disponíveis para adoção no si
 
 Para executar os testes, você pode usar um dos seguintes comandos:
 
-npx cypress open: Abre a interface gráfica do Cypress.
-npx cypress run: Executa os testes em modo headless.
+* npx cypress open: Abre a interface gráfica do Cypress.
+* npx cypress run: Executa os testes em modo headless.
 
 ## Documentação dos Testes
 
 Após a execução dos testes, a documentação estará disponível em formato HTML no diretório mochawesome-report.
+
+## Tecnologias utilizadas
+* JavaScript
+* Framework
+* Visual Studio Code
 
 ## Contribuições
 
