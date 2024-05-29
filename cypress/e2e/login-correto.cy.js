@@ -11,8 +11,6 @@ describe('Página de login', () => {
     // Definindo um teste especifico: O bloco 'it' define um teste individual
     it('Deve preencher os campos do login corretamente e autenticar o usuário na página', () => {
       // Inserir corretamente email, senha e clicar no botão "submit-button" para finalizar o login 
-      cy.get('[data-test="input-loginEmail"]').type('ana@email.com');
-      cy.get('[data-test="input-loginPassword"]').type('Senha123');
-      cy.get('[data-test="submit-button"]').click();
+      cy.login('ana@email.com', 'Senha123')
     })
   });

@@ -1,0 +1,1 @@
+/* Na tela de home, verifique se as imagens dos pets aparecem.*/
