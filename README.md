@@ -6,6 +6,8 @@ Este repositório contém um projeto de automação de testes E2E utilizando Cyp
 
 Este projeto automatiza a seleção dos animais disponíveis para adoção no site AdoPet utilizando testes automatizados E2E com Cypress. O objetivo é garantir a funcionalidade e integridade das operações de listagem e detalhamento dos animais, proporcionando uma experiência confiável para os usuários que desejam adotar um animal de estimação.
 
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+
 ## Funcionalidades
 
 - **Configuração do projeto de testes Cypress:** Configuração inicial do ambiente de teste utilizando a interface gráfica do Cypress.
