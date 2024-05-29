@@ -6,11 +6,17 @@
 > Status do Projeto: :warning: (em desenvolvimento)
 
 ### Tópicos
-* [Título](#Teste-Automatizado-com-Cypress-para-o-site-AdoPet)
-* [Descrição do Projeto](#Descrição-do-projeto)
-* [Status do Projeto](#Status-do-Projeto)
+* [Título](#teste-Automatizado-com-Cypress-para-o-site-AdoPet)
+* [Descrição do Projeto](#descrição-do-projeto)
+* [Status do Projeto](#status-do-Projeto)
 * [Funcionalidades](#funcionalidades)
+* [Pré-requisitos](#pré-requisitos)
+* [Como rodar a aplicação](#como-rodar-a-aplicação)
+* [Executando Testes](#executando-testes)
+* [Documentação dos Testes](#documentação-dos-testes)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
+* [Contribuições](#contribuições)
+* [Acesso do Projeto](#acessando-o-site-adoPet)
 
 
 ## Descrição do projeto
@@ -50,8 +56,10 @@ Este projeto automatiza a seleção dos animais disponíveis para adoção no si
 
 Para executar os testes, você pode usar um dos seguintes comandos:
 
-* npx cypress open: Abre a interface gráfica do Cypress.
-* npx cypress run: Executa os testes em modo headless.
+* npx cypress open : Abre a interface gráfica do Cypress.
+* npx cypress run : Executa os testes em modo headless. São testes que é executado diretamente no terminal. É feito na própria máquina local sem precisar abrir a interface gráfica. 
+* npx cypress run --spec .\cypress\e2e\login-correto.cy.js : É colocado o caminho de um único arquivo. Esse comando vai rodar um único teste.
+* npx cypress run --reporter mochawesome : Gerar automaticamente relatórios e trazer essas informações de maneira organizada.
 
 ## Documentação dos Testes
 
@@ -66,7 +74,7 @@ Após a execução dos testes, a documentação estará disponível em formato H
 
 Contribuições são bem-vindas! Abra uma issue para discutir qualquer alteração significativa que você gostaria de fazer.
 
-## Acessando o Site AdoPet
+## Acessando o site AdoPet
 
 Para acessar o site AdoPet e verificar os animais disponíveis para adoção abaixo:
 
