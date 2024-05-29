@@ -1,6 +1,8 @@
 # Teste Automatizado com Cypress para o site AdoPet
 <p align="center">
 <img src="https://img.shields.io/static/v1?label=cypress&message=framework&color=green&style=for-the-badge&logo=CYPRESS"/>
+<img src="http://img.shields.io/static/v1?label=VSCode&message=Code editing&color=blue&style=for-the-badge&logo=visualstudiocode"/>
+<img src="http://img.shields.io/static/v1?label=JavaScript&message=v20.10.0&color=yellow&style=for-the-badge&logo=javascript"/>
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
 </p>
 > Status do Projeto: :warning: (em desenvolvimento)
@@ -22,8 +24,6 @@
 ## Descrição do projeto
 
 Este projeto automatiza a seleção dos animais disponíveis para adoção no site AdoPet utilizando testes automatizados E2E com Cypress. O objetivo é garantir a funcionalidade e integridade das operações de listagem e detalhamento dos animais, proporcionando uma experiência confiável para os usuários que desejam adotar um animal de estimação.
-
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
 ## Funcionalidades
 
