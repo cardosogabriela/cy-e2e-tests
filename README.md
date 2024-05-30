@@ -1,8 +1,27 @@
-# Teste Automatizado com Cypress para o Site AdoPet
+# Teste Automatizado com Cypress para o site AdoPet
+<p align="center">
+<img src="https://img.shields.io/static/v1?label=cypress&message=framework&color=green&style=for-the-badge&logo=CYPRESS"/>
+<img src="http://img.shields.io/static/v1?label=VSCode&message=Code editing&color=blue&style=for-the-badge&logo=visualstudiocode"/>
+<img src="http://img.shields.io/static/v1?label=JavaScript&message=v20.10.0&color=yellow&style=for-the-badge&logo=javascript"/>
+<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
+</p>
+> Status do Projeto: :warning: (em desenvolvimento)
 
-Este repositório contém um projeto de automação de testes E2E utilizando Cypress para verificar os animais disponíveis para adoção no site AdoPet.
+### Tópicos
+* [Título](#teste-Automatizado-com-Cypress-para-o-site-AdoPet)
+* [Descrição do Projeto](#descrição-do-projeto)
+* [Status do Projeto](#status-do-Projeto)
+* [Funcionalidades](#funcionalidades)
+* [Pré-requisitos](#pré-requisitos)
+* [Como rodar a aplicação](#como-rodar-a-aplicação)
+* [Executando Testes](#executando-testes)
+* [Documentação dos Testes](#documentação-dos-testes)
+* [Tecnologias utilizadas](#tecnologias-utilizadas)
+* [Contribuições](#contribuições)
+* [Acesso do Projeto](#acessando-o-site-adoPet)
 
-## Descrição
+
+## Descrição do projeto
 
 Este projeto automatiza a seleção dos animais disponíveis para adoção no site AdoPet utilizando testes automatizados E2E com Cypress. O objetivo é garantir a funcionalidade e integridade das operações de listagem e detalhamento dos animais, proporcionando uma experiência confiável para os usuários que desejam adotar um animal de estimação.
 
@@ -24,7 +43,7 @@ Este projeto automatiza a seleção dos animais disponíveis para adoção no si
 - Node.js (v12 ou superior)
 - Cypress (instalado globalmente ou localmente)
 
-### Instalação
+### Como rodar a aplicação
 
 1. Clone o repositório:
 
@@ -37,18 +56,25 @@ Este projeto automatiza a seleção dos animais disponíveis para adoção no si
 
 Para executar os testes, você pode usar um dos seguintes comandos:
 
-npx cypress open: Abre a interface gráfica do Cypress.
-npm run cy:run: Executa os testes em modo headless.
+* npx cypress open : Abre a interface gráfica do Cypress.
+* npx cypress run : Executa os testes em modo headless. São testes que é executado diretamente no terminal. É feito na própria máquina local sem precisar abrir a interface gráfica. 
+* npx cypress run --spec .\cypress\e2e\login-correto.cy.js : É colocado o caminho de um único arquivo. Esse comando vai rodar um único teste.
+* npx cypress run --reporter mochawesome : Gerar automaticamente relatórios e trazer essas informações de maneira organizada.
 
 ## Documentação dos Testes
 
 Após a execução dos testes, a documentação estará disponível em formato HTML no diretório mochawesome-report.
 
+## Tecnologias utilizadas
+* JavaScript
+* Framework
+* Visual Studio Code
+
 ## Contribuições
 
 Contribuições são bem-vindas! Abra uma issue para discutir qualquer alteração significativa que você gostaria de fazer.
 
-## Acessando o Site AdoPet
+## Acessando o site AdoPet
 
 Para acessar o site AdoPet e verificar os animais disponíveis para adoção abaixo:
 
