@@ -13,6 +13,12 @@ Cypress.Commands.add('cadastrar', (nome, email, senha) => {
     cy.get('[data-test="submit-button"]').click();
  })
 
+ Cypress.Commands.add('login', (email, senha) => { 
+        cy.get('[data-test="input-loginEmail"]').type(email);
+        cy.get('[data-test="input-loginPassword"]').type(senha);
+        cy.get('[data-test="submit-button"]').click();
+    })
+
 // ***********************************************
 // This example commands.js shows you how to
 // create various custom commands and overwrite
