@@ -1,4 +1,4 @@
-// Na página de exemplos do cypress, verifique se a funcionalidade de delete funciona
+// Você consegue identificar e definir um teste Flaky?
 
 describe('', () => {
     beforeEch(() => {

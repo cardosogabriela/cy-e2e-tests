@@ -1,4 +1,4 @@
-// Na página de exemplos do cypress, verifique se a funcionalidade de delete funciona
+// Quais são os dados sensíveis e como podemos ocultar essa informação no cypress?
 
 describe('', () => {
     beforeEch(() => {
